@@ -1,5 +1,44 @@
-body{
-  font:Verdana;
-  margin-right:300px;
-  margin-left:300px;
-  line-height:40px;
+/*body text font and color*/
+h1{font-family: "Georgia", Times, serif;
+  color: gray;
+  text-shadow:2px 2px #CCC5C4;
+}
+
+p{
+  width: 350px;
+  text-align: left;
+  font-family: "Palatino", Times, serif;
+  color: gray;
+}
+
+/* Navigation css code */
+nav {
+    background: #444;
+    width: 100%;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+    nav ul li:hover {
+        background: #03ADDF;
+    }
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+}
+    nav ul li a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
