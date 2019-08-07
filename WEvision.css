@@ -1,0 +1,64 @@
+h1 {
+  font-family: "Georgia", Times, serif;
+  color:gray;
+  text-shadow:2px 2px #CCC5C4;
+}
+
+p {
+  width:350px;
+  font-family: "Palatino", Times, serif;
+  color: gray;
+}
+
+nav {
+    background: #444;
+    width: 100%;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+    nav ul li:hover {
+        background: #03ADDF;
+    }
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+}
+    nav ul li a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+/* Sub Menu */
+nav ul li.parent ul.child {
+    display: none; /* Hide Sub Menu */
+}
+nav ul li.parent:hover ul.child {
+    display: block; /* Show Sub Menu on Hover */
+    position: absolute;
+    top: 40px;
+    background: #03ADDF;
+}
+
+nav ul li.parent ul.child li {
+    width: 9em;
+    padding: 0;
+}
+nav ul li.parent ul.child li:hover {
+    background: #008FBA;
+}
+nav ul li.parent ul.child li a {
+    display: block;
+}
