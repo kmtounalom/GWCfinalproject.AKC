@@ -1,1 +1,205 @@
-books and music html
+<!DOCTYPE html>
+<html>
+<head>
+  </html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="WEvision.css">
+  <nav>
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li class="parent"><a href="#">Role Models</a>
+              <ul class="child">
+                  <li><a href="#">number 1</a></li>
+                  <li><a href="#">number 2</a></li>
+                  <li><a href="#">number 3</a></li>
+                  <li><a href="#">number 4</a></li>
+              </ul>
+          </li>
+          <li><a href="#">Books & Music</a></li>
+          <li><a href="#">Quiz</a></li>
+          <li><a href="#">What YOU can do</a></li>
+      </ul>
+  </nav>
+
+
+ <h1 style="text-align:center;">Books and Music</h1>
+  <!-- <h1> Books and Music </h1> -->
+  <script src="booksandmusic.js"></script>
+  <link rel="stylesheet" type="text/css" href="Booksandmusic.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 250px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+/* @media only screen and (max-width: 300px) { */
+  /* .prev, .next,.text {font-size: 60px} */
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="https://prodimage.images-bn.com/pimages/9781449474256_p0_v11_s550x406" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="https://books.google.com/books/content?id=ZrsVZKWJg4UC&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE72NqeCOn6iUPgu9XC-ghbL8SqV66AvXjNoHbUPDVleY8_kxu4HPZRb-0eZzaOBef2kWQT2QKOYg1jjCnox8vpfr28OqpiTPj2y5bNcgfpB940QTllx5Pzcp3FwYsIeQEE5mx1pr" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="https://images-na.ssl-images-amazon.com/images/I/51L9u20bC7L._SX348_BO1,204,203,200_.jpg" style="width:100%">
+
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="https://books.google.com/books/content?id=jm5nDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE70OV9ipI6X3KeH96Xbo43AfML2AIVeUP6ooydBkOnlLWBk9OiPjVZ0VuAZsELL344wVdTKjn6cDy0Bre3g8HL4DSpkjM7FhN0DEaAcbY17HkxLbpwJm4hESsVThgiWbEzqlUml_" style="width:100%">
+
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="https://books.google.com/books/content?id=U7hXAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&imgtk=AFLRE71YSESl-yOlmreVQAINCnHovHZ8FToR0mLcV1nl4xK3DsicJG_4Y901zPIfcGDRVOoOZBwwHTnQGJw-S_yZe3zAuEsE_rnLIBP-n1UcKd9CNRFu23CpJhkRQr_Har_sSZZ0O22R" style="width:100%">
+
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
+
