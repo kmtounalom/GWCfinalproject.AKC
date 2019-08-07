@@ -13,6 +13,7 @@ p {
 nav {
     background: #444;
     width: 100%;
+    background-color: white;
 }
 
 nav ul {
@@ -27,38 +28,41 @@ nav ul li {
     margin: 0;
     padding: 10px 0;
 }
+
     nav ul li:hover {
-        background: #03ADDF;
+        background: #F5C5DD;
     }
 
 nav ul li a {
-    color: #fff;
+    color: #3A3C3E;
     text-decoration: none;
     padding: 12px;
 }
+
     nav ul li a:hover {
-        color: #fff;
         text-decoration: none;
     }
 
-/* Sub Menu */
 nav ul li.parent ul.child {
-    display: none; /* Hide Sub Menu */
+    display: none;
 }
+
 nav ul li.parent:hover ul.child {
-    display: block; /* Show Sub Menu on Hover */
+    display: block;
     position: absolute;
     top: 40px;
-    background: #03ADDF;
+    background: #F5C5DD;
 }
 
 nav ul li.parent ul.child li {
     width: 9em;
     padding: 0;
 }
+
 nav ul li.parent ul.child li:hover {
-    background: #008FBA;
+    background: #F5C5DD;
 }
+
 nav ul li.parent ul.child li a {
     display: block;
 }
