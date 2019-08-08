@@ -5,10 +5,21 @@ h1 {
 }
 
 p {
-  width:350px;
+  width:100%;
   font-family: "Palatino", Times, serif;
   color: gray;
 }
+
+img {
+  /*float: right;*/
+}
+
+.column {
+  float: left;
+  width: 50%
+}
+
+
 
 nav {
     background: #444;
@@ -43,26 +54,26 @@ nav ul li a {
         text-decoration: none;
     }
 
-nav ul li.parent ul.child {
+nav .parent .child {
     display: none;
 }
 
-nav ul li.parent:hover ul.child {
+nav .parent:hover .child {
     display: block;
     position: absolute;
     top: 40px;
     background: #F5C5DD;
 }
 
-nav ul li.parent ul.child li {
+nav .parent .child  {
     width: 9em;
     padding: 0;
 }
 
-nav ul li.parent ul.child li:hover {
+nav .parent .child :hover {
     background: #F5C5DD;
 }
 
-nav ul li.parent ul.child li a {
+nav .parent .child li a {
     display: block;
 }
