@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Career Quiz</title>
+    <link rel ="stylesheet" href="careerQuiz.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Career Quiz</h1>
+    <h2>What career could you have? Get inspired!</h2>
+
+    <form id=careerQuiz>
+      <h3>What extracurricular activity would you most likely be doing?</h3>
+      <input type="radio" name="extracurricular" value= "sofEn"> Robotics Team.<br>
+      <input type="radio" name="extracurricular" value= "law"> Mock Trial.<br>
+      <input type="radio" name="extracurricular" value= "doc"> A candy stripper at a local hospital.<br>
+      <input type="radio" name="extracurricular" value= "proSpo"> Practicing a sport.<br>
+
+      <h3>How would you describe yourself in one word?</h3>
+      <input type="radio" name="word" value= "law"> Quick-Thinking.<br>
+      <input type="radio" name="word" value= "sofEn"> Problem-solver.<br>
+      <input type="radio" name="word" value= "proSpo"> Competitive.<br>
+      <input type="radio" name="word" value= "doc"> Compassionate.<br>
+
+      <h3>If you were in a group project, who would you be?</h3>
+      <input type="radio" name="proj" value= "doc"> The one constantly checking in and communicating with everyone.<br>
+      <input type="radio" name="proj" value= "proSpo"> The one preoccupied with balancing their work load with their sports practices.<br>
+      <input type="radio" name="proj" value= "sofEn"> The one doing a lot of the work behind the scenes.<br>
+      <input type="radio" name="proj" value= "law"> The one who presents in front of the class.<br>
+
+      <input type="submit" value="submit">
+    </form>
+
+<!--Results-->
+    <div class="result" id="sofEn">
+      <h2>You have the qualities of a Software Engineer!</h2>
+    </div>
+
+    <div class="result" id="law">
+      <h2>You have the qualities of a Lawyer!</h2>
+    </div>
+
+    <div class="result" id="doc">
+      <h2>You have the qualities of a Doctor!</h2>
+    </div>
+
+    <div class="result" id="proSpo">
+      <h2>You have the qualities of a Professional Athlete!</h2>
+    </div>
+    <script src="careerQuiz.js"></script>
+  </body>
+
+</html>

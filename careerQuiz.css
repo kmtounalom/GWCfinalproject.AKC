@@ -1,0 +1,22 @@
+/*heading*/
+h1{text-align: center;
+  font-family: "Georgia", Times, serif;
+  text-shadow:2px 2px #CCC5C4;
+  background-color: lavender;
+}
+
+/*what career could you have?*/
+h2{text-align: center;
+  margin-top: 0px;
+  font-family: "Palatino",
+    Times, serif;
+}
+
+div{text-align: center;
+    font-family: "Palatino",
+    Times, serif;
+}
+
+.result{
+  display:none
+}
