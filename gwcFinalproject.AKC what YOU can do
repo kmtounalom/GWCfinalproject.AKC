@@ -9,18 +9,20 @@
         <!-- role Models -->
               <li class="parent"><a href="gwcFinalproject role models.html">Role Models</a>
                   <ul class="child">
-                      <li><a href="#">number 1</a></li>
-                      <li><a href="#">number 2</a></li>
-                      <li><a href="#">number 3</a></li>
-                      <li><a href="#">number 4</a></li>
+                      <li><a href="#">Media</a></li>
+                      <li><a href="#">World leaders</a></li>
+                      <li><a href="#">Activists</a></li>
+                      <li><a href="#">Medicine</a></li>
+                      <li><a href="#">Athletics</a></li>
+                      <li><a href="#">Technology</a></li>
                   </ul>
               </li>
 
-         <li><a href="gwcFinalproject quiz.html">Quiz</a></li>
+         <li><a href="quiz.html">Quiz</a></li>
          <li><a href="gwcFinalproject what YOU can do.html">what YOU can do</a></li>
          <li><a href="gwcFinalproject Books and Music.html">Books and Music</a></li>
+       </nav>
 
-       </ul>
-     </nav>
+      </ul>
 
 <h1 style="text-align:center;">What YOU can do</h1>
