@@ -30,6 +30,14 @@ margin-left: auto;
 margin-right: auto;
 }
 
+/*centering question mark*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200;
+}
+
 /*nav bar style*/
 nav {
     background: #444;
